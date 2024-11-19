@@ -14,7 +14,7 @@
 
 1. [Visual Studio Code](https://code.visualstudio.com/) を開く。
 2. `Ctrl+Shift+X` で拡張機能タブを開く。
-3. `Gitmoji` と入力して、この拡張機能を見つける。
+3. `Foodmoji` と入力して、この拡張機能を見つける。
 4. `インストール` ボタンをクリック後、 `有効にする` ボタンをクリックする。
 
 ## 🔨 設定

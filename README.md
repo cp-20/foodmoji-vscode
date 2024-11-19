@@ -16,7 +16,7 @@
 
 1. Open [Visual Studio Code](https://code.visualstudio.com/).
 2. Press `Ctrl+Shift+X` to open the Extensions tab.
-3. Type `Gitmoji` to find the extension.
+3. Type `Foodmoji` to find the extension.
 4. Click the `Install` button, then the `Enable` button.
 
 ## 🔨 Configuration
