@@ -1,9 +1,7 @@
 [English](README.md) | **日本語**
 
-<!-- TODO: 差し替える -->
-
 <p align="center">
-    <img src="assets/gitmoji.gif" width="400">
+    <img src="assets/foodmoji.svg" width="400">
 </p>
 
 <p align="center">VSCode 内の Git コミットメッセージ用 Foodmoji ツール</p>

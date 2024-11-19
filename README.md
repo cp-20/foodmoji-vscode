@@ -1,9 +1,7 @@
 **English** | [日本語](README.ja.md)
 
-<!-- TODO: 差し替える -->
-
 <p align="center">
-    <img src="assets/gitmoji.gif" width="400">
+    <img src="assets/foodmoji.svg" width="400">
 </p>
 
 <p align="center">
