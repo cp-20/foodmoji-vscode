@@ -1,7 +1,7 @@
 **English** | [日本語](README.ja.md)
 
 <p align="center">
-    <img src="assets/foodmoji.svg" width="400">
+    <img src="assets/foodmoji.png" width="400">
 </p>
 
 <p align="center">
