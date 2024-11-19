@@ -1,5 +1,6 @@
 {
     "foodmoji.command.showFoodmoji.title": "Choose Foodmoji",
+    "foodmoji.command.addRandomFoodmoji.title": "Choose random Foodmoji",
     "foodmoji.config.addCustomEmoji": "Add custom emoji other than Foodmoji",
     "foodmoji.config.onlyUseCustomEmoji": "Only use your custom emoji, not the ones in the Foodmoji",
     "foodmoji.config.outputType": "Configure the type of emoji output as needed",

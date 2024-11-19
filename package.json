@@ -27,7 +27,8 @@
     ],
     "icon": "assets/icon.png",
     "activationEvents": [
-        "onCommand:extension.showFoodmoji"
+        "onCommand:extension.showFoodmoji",
+        "onCommand:extension.addRandomFoodmoji"
     ],
     "main": "./out/extension.js",
     "l10n": "./languages",
@@ -36,7 +37,12 @@
             {
                 "command": "extension.showFoodmoji",
                 "title": "%foodmoji.command.showFoodmoji.title%",
-                "icon": "$(smiley)"
+                "icon": "$(reactions)"
+            },
+            {
+                "command": "extension.addRandomFoodmoji",
+                "title": "%foodmoji.command.addRandomFoodmoji.title%",
+                "icon": "$(target)"
             }
         ],
         "menus": {
@@ -44,6 +50,11 @@
                 {
                     "when": "scmProvider == git",
                     "command": "extension.showFoodmoji",
+                    "group": "navigation"
+                },
+                {
+                    "when": "scmProvider == git",
+                    "command": "extension.addRandomFoodmoji",
                     "group": "navigation"
                 }
             ]
