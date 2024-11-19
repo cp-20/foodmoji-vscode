@@ -2,7 +2,7 @@
     "name": "foodmoji-vscode",
     "displayName": "Foodmoji",
     "description": "Foodmoji tool for git commit messages in VSCode",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/cp-20/foodmoji-vscode/issues"
