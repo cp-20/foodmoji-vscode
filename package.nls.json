@@ -1,10 +1,10 @@
 {
-    "gitmoji.command.showGitmoji.title": "Choose Gitmoji",
-    "gitmoji.config.addCustomEmoji": "Add custom emoji other than Gitmoji",
-    "gitmoji.config.onlyUseCustomEmoji": "Only use your custom emoji, not the ones in the Gitmoji",
-    "gitmoji.config.outputType": "Configure the type of emoji output as needed",
-    "gitmoji.config.outputType.code": "Suitable for GitHub, Gitee etc",
-    "gitmoji.config.outputType.emoji": "Suitable for GitHub, Gitlab, Coding, etc",
-    "gitmoji.config.showEmojiCode": "Enable searching gitmojis by emoji code (example: ambulance will return hotfix)",
-    "gitmoji.config.asSuffix": "Insertion of Gitmoji at the end of messages"
+    "foodmoji.command.showFoodmoji.title": "Choose Foodmoji",
+    "foodmoji.config.addCustomEmoji": "Add custom emoji other than Foodmoji",
+    "foodmoji.config.onlyUseCustomEmoji": "Only use your custom emoji, not the ones in the Foodmoji",
+    "foodmoji.config.outputType": "Configure the type of emoji output as needed",
+    "foodmoji.config.outputType.code": "Suitable for GitHub, Gitee etc",
+    "foodmoji.config.outputType.emoji": "Suitable for GitHub, Gitlab, Coding, etc",
+    "foodmoji.config.showEmojiCode": "Enable searching foodmojis by emoji code (example: ambulance will return hotfix)",
+    "foodmoji.config.asSuffix": "Insertion of Foodmoji at the end of messages"
 }
