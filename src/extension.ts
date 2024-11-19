@@ -1,9 +1,9 @@
 import * as vscode from 'vscode';
 import { GitExtension, Repository } from './git';
-import Gitmoji from './gitmoji';
+import Foodmoji from './foodmoji';
 
 export function activate(context: vscode.ExtensionContext) {
-    let disposable = vscode.commands.registerCommand('extension.showGitmoji', (uri?) => {
+    let disposable = vscode.commands.registerCommand('extension.showFoodmoji', (uri?) => {
         const git = getGitExtension();
 
         if (!git) {
@@ -11,17 +11,17 @@ export function activate(context: vscode.ExtensionContext) {
             return;
         }
 
-        let addCustomEmoji: Array<any> = vscode.workspace.getConfiguration().get('gitmoji.addCustomEmoji') || [];
+        let addCustomEmoji: Array<any> = vscode.workspace.getConfiguration().get('foodmoji.addCustomEmoji') || [];
 
-        const showEmojiCode: boolean | undefined = vscode.workspace.getConfiguration().get('gitmoji.showEmojiCode');
+        const showEmojiCode: boolean | undefined = vscode.workspace.getConfiguration().get('foodmoji.showEmojiCode');
 
         let emojis = [];
-        let onlyUseCustomEmoji: boolean | undefined = vscode.workspace.getConfiguration().get('gitmoji.onlyUseCustomEmoji');
+        let onlyUseCustomEmoji: boolean | undefined = vscode.workspace.getConfiguration().get('foodmoji.onlyUseCustomEmoji');
 
         if (onlyUseCustomEmoji === true) {
             emojis = [...addCustomEmoji];
         } else {
-            emojis = [...Gitmoji, ...addCustomEmoji];
+            emojis = [...Foodmoji, ...addCustomEmoji];
         }
 
         const items = emojis.map(emojiObj => {
@@ -38,9 +38,9 @@ export function activate(context: vscode.ExtensionContext) {
         vscode.window.showQuickPick(items).then(function (selected) {
             if (selected) {
                 vscode.commands.executeCommand('workbench.view.scm');
-                const outputType = vscode.workspace.getConfiguration().get('gitmoji.outputType');
+                const outputType = vscode.workspace.getConfiguration().get('foodmoji.outputType');
                 const valueToAdd = outputType === 'emoji' ? selected.emoji : selected.code;
-                const asSuffix: boolean | undefined = vscode.workspace.getConfiguration().get('gitmoji.asSuffix') || false;
+                const asSuffix: boolean | undefined = vscode.workspace.getConfiguration().get('foodmoji.asSuffix') || false;
 
                 if (uri) {
                     const uriPath = uri._rootUri?.path || uri.rootUri.path;
@@ -60,11 +60,11 @@ export function activate(context: vscode.ExtensionContext) {
     context.subscriptions.push(disposable);
 }
 
-function updateCommit(repository: Repository, valueOfGitmoji: String, asSuffix: boolean) {
-    if (!asSuffix){
-        repository.inputBox.value = `${valueOfGitmoji} ${repository.inputBox.value}`;
+function updateCommit(repository: Repository, valueOfFoodmoji: String, asSuffix: boolean) {
+    if (!asSuffix) {
+        repository.inputBox.value = `${valueOfFoodmoji} ${repository.inputBox.value}`;
     } else {
-        repository.inputBox.value = `${repository.inputBox.value} ${valueOfGitmoji}`;
+        repository.inputBox.value = `${repository.inputBox.value} ${valueOfFoodmoji}`;
     }
 }
 
