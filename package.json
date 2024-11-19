@@ -5,10 +5,10 @@
     "version": "1.0.0",
     "license": "MIT",
     "author": {
-        "name": "cp-20",
+        "name": "cp20",
         "email": "n.naoki.1587@gmail.com"
     },
-    "publisher": "cp-20",
+    "publisher": "cp20",
     "bugs": {
         "url": "https://github.com/cp-20/foodmoji-vscode/issues"
     },
