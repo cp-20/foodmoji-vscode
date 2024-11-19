@@ -1,4 +1,6 @@
-[English](README.md) | [简体中文](README.zh-CN.md) | [Português Brasileiro](README.pt-BR.md) | [Português Europeu](README.pt-PT.md) | **日本語** | [한국어](README.ko.md)
+[English](README.md) | **日本語**
+
+<!-- TODO: 差し替える -->
 
 <p align="center">
     <img src="assets/gitmoji.gif" width="400">
