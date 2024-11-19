@@ -6,31 +6,10 @@
     <img src="assets/gitmoji.gif" width="400">
 </p>
 
-<p align="center">
-    <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square">
-    <a href="https://github.com/seatonjiang/gitmoji-vscode/issues">
-        <img src="https://img.shields.io/github/issues/seatonjiang/gitmoji-vscode?style=flat-square&color=blue">
-    </a>
-    <a href="https://github.com/seatonjiang/gitmoji-vscode/pulls">
-        <img src="https://img.shields.io/github/issues-pr/seatonjiang/gitmoji-vscode?style=flat-square&color=brightgreen">
-    </a>
-    <a href="https://github.com/seatonjiang/gitmoji-vscode/blob/main/LICENSE">
-        <img src="https://img.shields.io/github/license/seatonjiang/gitmoji-vscode?&style=flat-square">
-    </a>
-</p>
+<p align="center">VSCode 内の Git コミットメッセージ用 Foodmoji ツール</p>
 
 <p align="center">
-    <a href="https://github.com/seatonjiang/gitmoji-vscode/issues">不具合報告</a>
-    ·
-    <a href="https://github.com/seatonjiang/gitmoji-vscode/issues">機能リクエスト</a>
-</p>
-
-<p align="center">VSCode 内の Git コミットメッセージ用 Gitmoji ツール</p>
-
-## 💻 スクリーンショット
-
-<p align="center">
-    <img src="assets/about.gif">
+    <span>This project is a fork of <a href="https://github.com/seatonjiang/gitmoji-vscode">seatonjiang/gitmoji-vscode</a></span>
 </p>
 
 ## 📦 インストール
@@ -42,92 +21,12 @@
 
 ## 🔨 設定
 
-### 絵文字の出力タイプ選択
-
-- `outputType` - 絵文字の出力タイプを設定できます。（デフォルトは `emoji` タイプ）。
-
-emoji タイプの出力例：
-
-![emoji](assets/emoji.png)
-
-code タイプの出力例：
-
-![code](assets/code.png)
-
-例：
-
-```json
-{
-  "gitmoji.outputType": "emoji"
-}
-```
-
-> **注意**： Gitlab や Coding で使用する場合は、「code」タイプを選択しなければなりません。 GitHub で使用する場合は、任意のタイプを選択できます。
-
-### カスタム絵文字を設定する
-
-- `addCustomEmoji` - 自分でカスタマイズした絵文字を追加できます。
-
-例：
-
-```json
-{
-  "gitmoji.addCustomEmoji": [
-    {
-      "emoji": "🧵",
-      "code": ":thread:",
-      "description": "マルチスレッドや並行処理に関連するコードの追加/更新"
-    },
-    {
-      "emoji": "🦺",
-      "code": ":safety_vest:",
-      "description": "バリデーションの追加/更新"
-    }
-  ]
-}
-```
-
-### カスタム絵文字のみを使用する
-
-- `onlyUseCustomEmoji` - 拡張機能にもとから含まれるデフォルトの絵文字ではなく、自身でカスタマイズした絵文字のみを使用する（デフォルトでは無効）。
-
-例：
-
-```json
-{
-  "gitmoji.onlyUseCustomEmoji": true
-}
-```
-
-### ショートコードで絵文字検索
-
-- `showEmojiCode` - ショートコードによる絵文字の検索を有効にする（デフォルトでは無効）。
-
-例：
-
-```json
-{
-  "gitmoji.showEmojiCode": true
-}
-```
-
-### コミットの最後に絵文字を挿入
-
-- `asSuffix` - コミットメッセージの接尾辞として絵文字を挿入することを有効にします。
-
-例：
-
-```json
-{
-  "gitmoji.asSuffix": true
-}
-```
-
-
-## 🤝 コントリビュートについて
-
-私たちはすべての貢献を歓迎します。どんなアイデアでもプルリクエストとして、あるいはイシューとして提出することができます!
+[元のリポジトリ](https://github.com/seatonjiang/gitmoji-vscode/blob/main/README.ja.md#-%E8%A8%AD%E5%AE%9A)を参照してください
 
 ## 📃 ライセンス
 
 このプロジェクトは MIT ライセンスで公開されています。詳しくは [LICENSE](https://github.com/seatonjiang/gitmoji-vscode/blob/main/LICENSE) をご覧ください。
+
+## 🙌 謝辞
+
+元のプロジェクトを制作してくれた Seaton Jiang に深く感謝を申し上げる。
